@@ -15,8 +15,8 @@ public class EmailAddressValidateBuilder
     }
     public static void main(String[] args)
     {
-        String input = "anu123.";
-        String patternNum = "^[a-zA-Z0-9_-.]{3,}$";
+        String input = "co";
+        String patternNum = "^[a-zA-Z]{2,5}$";
         outputChecker(checkPattern(input, patternNum));
     }
     private static void outputChecker(boolean checkPattern)
